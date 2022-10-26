@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald");
+
+/* Basic Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+  /* Disable mouse selection */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -webkit-user-select: none; /* Chrome/Safari */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+html {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+.inline {
+  display: inline-block;
+}
+
+.push {
+  background-color: grey;
+  border: 12px solid #333;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.rw {
+  margin-bottom: -4px;
+}
+
+.b-r {
+  border-bottom-right-radius: 100%;
+}
+
+.b-l {
+  border-bottom-left-radius: 100%;
+}
+
+.t-l {
+  border-top-left-radius: 100%;
+}
+
+.t-r {
+  border-top-right-radius: 100%;
+}
+
+.wrap {
+  background-color: #333;
+  border-radius: 100%;
+  box-shadow: 0 0 12px #222;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  width: 472px;
+  height: 472px;
+}
+
+.wrap-in {
+  position: relative;
+  top: 12px;
+}
+.center {
+  background-color: #ece7ee;
+  border: 12px solid #333;
+  border-radius: 100%;
+  margin: -122px 0 0 -122px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+.brand {
+  color: #222;
+  margin-top: 35px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 3.2em;
+}
+
+.brand .small {
+  font-size: .3em;
+  position: relative;
+  top: -20px;
+}
+
+.count {
+  background-color: #32050c;
+  border: 4px solid #222;
+  border-radius: 10px;
+  color: #dc0d29;
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  width: 50px;
+}
+
+.round-btn {
+  background-color: yellow;
+  border: 4px solid #444;
+  border-radius: 100%;
+  box-shadow: 0 2px 3px #222;
+  margin: auto;
+  position: relative;
+  top: -5px;
+  width: 20px;
+  height: 20px;
+}
+
+.round-btn:active {
+  box-shadow: 0 1px 1px #292929;
+  top: -4px;
+}
+
+.clickable {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.led {
+  background-color: #32050c;
+  border: 2px solid #222;
+  border-radius: 100%;
+  margin: auto;
+  position: absolute;
+  top: -18px;
+  right: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+}
+
+.led-on {
+  background-color: #dc0d29;
+}
+
+.led-off {
+  color: #430710;
+}
+
+.label {
+  color: #222;
+  font-family: "Oswald", Arial, sans;
+  font-size: .7em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.display {
+  position: relative;
+  text-align: center;
+  width: 60px;
+}
+
+.btn-box {
+  position: relative;
+  width: 50px;
+}
+
+.sw-slot {
+  background-color: #222;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  width: 40px;
+  height: 20px;
+}
+
+.switch {
+  background-color: #3193de;
+  border: 2px solid #333;
+  border-radius: 4px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.sw-on {
+  left: 20px;
+}
+.rw.bot {
+  margin-top: 10px;
+}
+.full-red {
+  background-color: #fc0102;
+}
+.red {
+  background-color: #9f0f17;
+}
+
+.green {
+  background-color: #00a74a;
+}
+
+.yellow {
+  background-color: #cca707;
+}
+
+.blue {
+  background-color: #094a8f;
+}
+
+.yellow.light {
+  background-color: #fed93f;
+}
+
+.blue.light {
+  background-color: #1c8cff;
+}
+
+.red.light {
+  background-color: #ff4c4c;
+}
+
+.green.light {
+  background-color: #13ff7c;
+}
+
+/* Scaling for Mobile */
+@media screen and (max-width: 500px) {
+  .wrap {
+    margin-left: -142px;
+
+    top: 40px;
+    left: 50%;
+
+    -moz-transform: scale(.6);
+    -ms-transform: scale(.6);
+    -o-transform: scale(.6);
+    -webkit-transform: scale(.6);
+    transform: scale(.6);
+
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+}
